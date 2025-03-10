@@ -1,7 +1,12 @@
-import  Button  from '@mui/material/Button';
-import * as react from 'react';
-
+import Button from '@mui/material/Button';
+import Stack from '@mui/material/Stack';
 
 export default function MyButton() {
-  return <Button variant="outlined">My Button</Button>;
+  return (<>
+   <Stack spacing={2} direction="row">
+      <Button variant="contained">Contained</Button>
+    
+    </Stack>
+  </>
+  )
 }
